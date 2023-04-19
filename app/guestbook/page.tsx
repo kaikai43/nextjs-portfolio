@@ -51,15 +51,18 @@ export default async function GuestbookPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif mb-5">Guestbook</h1>
-      {session?.user ? (
+      <div className="w-full flex flex-col">
+        Under construction!
+      </div>
+      {/* {session?.user ? (
         <>
           <Form />
           <SignOut />
         </>
       ) : (
         <SignIn />
-      )}
-      {entries.map((entry) => (
+      )} */}
+      {entries?.map((entry) => (
         <div key={entry.id} className="flex flex-col space-y-1 mb-4">
           <div className="w-full text-sm break-words">
             <span className="text-neutral-600 dark:text-neutral-400 mr-1">

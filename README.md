@@ -18,8 +18,10 @@ My Todo
   - [ ] favicon
   - [ ] L icon into animated folding triangle J
   - [ ] homepage
-- [ ] Remove Guestbook
+- [ ] Guestbook
+- [ ] Blog view count
 - [ ] Add sanity.io to blog
+- [ ] New Projects page
 
 Lee Rob TODO:
 
