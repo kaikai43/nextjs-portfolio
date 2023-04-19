@@ -11,7 +11,17 @@
 
 ## TODO
 
-In early 2023, I refactored my site to use the new `app/` directory in Next.js 13. I went ahead and shipped it, but there are still a few things I want to do:
+My Todo
+
+- [ ] Replace
+  - [ ] Tab name
+  - [ ] favicon
+  - [ ] L icon into animated folding triangle J
+  - [ ] homepage
+- [ ] Remove Guestbook
+- [ ] Add sanity.io to blog
+
+Lee Rob TODO:
 
 - [ ] Global `404` page coming soon
 - [ ] Move redirects to end of routing stack (not in `next.config.js`)
@@ -25,8 +35,7 @@ You can learn more about the `app/` directory [here](https://beta.nextjs.org/doc
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
+
 pnpm install
 pnpm run setup # Remove all of my personal information
 pnpm dev
