@@ -2,6 +2,7 @@ import Image from 'next/image';
 import {
   GitHubIcon,
   LinkedinIcon,
+  MailIcon,
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
 
@@ -24,7 +25,7 @@ export default async function HomePage() {
           width={100}
           priority
         />
-        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
+        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-3 text-neutral-500 dark:text-neutral-400">
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -32,6 +33,7 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <LinkedinIcon />
+            <div className="ml-3 mt-1">View my LinkedIn profile</div>
           </a>
           <a
             rel="noopener noreferrer"
@@ -40,6 +42,16 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <GitHubIcon />
+            <div className="ml-3">Visit my GitHub page</div>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="mailto:jin@jinkt.dev"
+            className="flex ju items-center gap-2"
+          >
+            <MailIcon />
+            <div className="ml-3">Send me an email</div>
           </a>
         </div>
       </div>

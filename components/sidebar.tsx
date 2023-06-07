@@ -31,6 +31,7 @@ function Logo() {
         <motion.path
           initial={{
             opacity: 0,
+            x: 130,
             pathLength: 0,
           }}
           animate={{
@@ -47,8 +48,8 @@ function Logo() {
           strokeWidth={78}
         />
         <motion.path
-          initial={{ x: -200, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{ x: 0, opacity: 0, rotateY: 180  }}
+          animate={{ x: -140, opacity: 1 }}
           transition={{
             duration: 0.5,
             type: 'spring',
