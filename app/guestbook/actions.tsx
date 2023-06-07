@@ -14,7 +14,7 @@ export function SignOut() {
   );
 }
 
-export function SignIn() {
+export function SignInGithub() {
   return (
     <button
       className="flex bg-black text-neutral-200 px-4 py-3 rounded-md font-semibold text-sm mb-4 hover:text-white transition-all border border-gray-800"
@@ -22,6 +22,18 @@ export function SignIn() {
     >
       <GitHubIcon />
       <div className="ml-3">Sign in with GitHub</div>
+    </button>
+  );
+}
+
+export function SignInGoogle() {
+  return (
+    <button
+      className="flex bg-white text-neutral-200 px-4 py-3 rounded-md font-semibold text-sm mb-4 hover:text-white transition-all border border-gray-800"
+      onClick={() => signIn('google')}
+    >
+      <GitHubIcon />
+      <div className="ml-3">Sign in with Google</div>
     </button>
   );
 }

@@ -44,10 +44,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  twitter: {
-    title: 'Jin Kai Teh',
-    card: 'summary_large_image',
-  },
   icons: {
     shortcut: '/favicon.ico',
   },

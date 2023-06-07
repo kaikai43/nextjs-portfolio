@@ -13,7 +13,7 @@ export const bio = () => {
   return (
     <>
       When I'm not coding, I'm probably playing badminton, playing video games or doing some reading.
-      I also love to travel locally and explore new places.
+      I also love to travel and explore new places.
     </>
   );
 };
