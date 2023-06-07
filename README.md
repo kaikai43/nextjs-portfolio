@@ -1,6 +1,5 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
 
-# leerob.io
+## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
@@ -14,14 +13,13 @@
 My Todo
 
 - [ ] Replace
-  - [ ] Tab name
   - [ ] favicon
-  - [ ] L icon into animated folding triangle J
+  - [ ] L icon
   - [ ] homepage
 - [ ] Guestbook
+- [ ] Projects page
+- [ ] Add sanity.io (CMS) as blog page
 - [ ] Blog view count
-- [ ] Add sanity.io to blog
-- [ ] New Projects page
 
 Lee Rob TODO:
 

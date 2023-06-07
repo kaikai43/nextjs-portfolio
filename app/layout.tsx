@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: 'Jin Kai Teh',
     template: '%s | Jin Kai Teh',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer, writer and creator.',
   openGraph: {
     title: 'Jin Kai Teh',
-    description: 'Developer, writer, and creator.',
+    description: 'Developer, writer and creator.',
     url: 'https://jinkt.dev',
     siteName: 'Jin Kai Teh',
     images: [

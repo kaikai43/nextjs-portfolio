@@ -9,11 +9,8 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/about': {
-    name: 'about',
-  },
-  '/blog': {
-    name: 'blog',
+  '/projects': {
+    name: 'projects',
   },
   '/guestbook': {
     name: 'guestbook',
@@ -22,7 +19,7 @@ const navItems = {
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Jin Kai Teh" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"

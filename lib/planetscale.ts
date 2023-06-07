@@ -10,18 +10,14 @@ interface GuestbookTable {
   updated_at?: string;
 }
 
-interface ViewsTable {
-  slug: string;
-  count: number;
-}
-
 interface Database {
   guestbook: GuestbookTable;
-  views: ViewsTable;
 }
 
 export const queryBuilder = new Kysely<Database>({
   dialect: new PlanetScaleDialect({
-    url: process.env.DATABASE_URL,
+    host: process.env.DATABASE_HOST,
+    username: process.env.DATABASE_USERNAME,
+    password: process.env.DATABASE_PASSWORD
   }),
 });
