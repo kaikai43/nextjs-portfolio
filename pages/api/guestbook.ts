@@ -1,14 +1,15 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getSession } from 'next-auth/react';
+import { authOptions } from "pages/api/auth/[...nextauth]";
 import { queryBuilder } from 'lib/planetscale';
+import { getServerSession } from 'next-auth';
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const session = await getSession({ req });
+  const session = await getServerSession(req, res, authOptions);
   if (!session || !session.user) {
-    return res.status(403).send('Unauthorized');
+    return res.status(401).send('You must be logged in.');
   }
 
   const email = session.user.email as string;
@@ -24,7 +25,7 @@ export default async function handler(
       })
       .execute();
 
-    return res.status(200).json({ error: null });
+    return res.status(200).json({ error: null, message: 'Success' });
   }
 
   if (req.method === 'DELETE') {

@@ -27,7 +27,6 @@ export default function Form() {
     });
 
     input.value = '';
-    const { error } = await res.json();
 
     setIsFetching(false);
     startTransition(() => {
