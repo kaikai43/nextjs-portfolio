@@ -12,11 +12,7 @@
 
 My Todo
 
-- [ ] Replace
-  - [ ] favicon
-  - [ ] L icon
-  - [ ] homepage
-- [ ] Guestbook
+- [ ] Guestbook - Google
 - [ ] Projects page
 - [ ] Add sanity.io (CMS) as blog page
 - [ ] Blog view count
