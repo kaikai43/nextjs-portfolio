@@ -23,13 +23,6 @@ export const metadata: Metadata = {
     description: 'Developer, builder and creator.',
     url: 'https://jinkt.dev',
     siteName: 'Jin Kai Teh',
-    images: [
-      {
-        url: 'https://jinkt.dev/og.jpg',
-        width: 1920,
-        height: 1080,
-      },
-    ],
     locale: 'en-US',
     type: 'website',
   },
