@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { queryBuilder } from "lib/planetscale";
+import { queryBuilder } from "lib/postgres";
 import { SignInGithub, SignInGoogle, SignOut } from "./actions";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "pages/api/auth/[...nextauth]";

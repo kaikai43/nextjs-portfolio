@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { authOptions } from "pages/api/auth/[...nextauth]";
-import { queryBuilder } from 'lib/planetscale';
+import { queryBuilder } from 'lib/postgres';
 import { getServerSession } from 'next-auth';
 
 export default async function handler(

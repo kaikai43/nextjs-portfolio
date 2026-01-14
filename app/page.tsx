@@ -47,7 +47,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="mailto:jin@jinkt.dev"
+            href="mailto:jinkt.dev@gmail.com"
             className="flex ju items-center gap-2"
           >
             <MailIcon />
